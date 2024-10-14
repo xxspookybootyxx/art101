@@ -27,6 +27,10 @@ h1 {
   background-color: #5A58C2;
 }
 
+#my-portrait {
+  width: 500px;
+}
+
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
@@ -35,6 +39,9 @@ h1 {
   background-color: #616BC0;
 }
 
-#my-portrait {
-  width: 500px;
+.list {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #2F0C67;
+  background-color: #616BC0;
 }
