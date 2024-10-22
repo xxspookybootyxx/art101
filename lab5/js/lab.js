@@ -14,12 +14,12 @@ var age = 2024 - year;
 
 // Output to the HTML element
 document.getElementById("output").innerHTML = 
-  "make: " + make + "<br>" +
-  "model: " + model + "<br>" +
-  "color: " + color + "<br>" +
-  "quirks: " + quirks + "<br>" +
-  "year: " + year + "<br>" +
-  "age: " + age + " years<br>";
+  "Make: " + make + "<br>" +
+  "Model: " + model + "<br>" +
+  "Color: " + color + "<br>" +
+  "Quirks: " + quirks + "<br>" +
+  "Year: " + year + "<br>" +
+  "Age: " + age + " years<br>";
 
 // Constants
 console.log(age);
