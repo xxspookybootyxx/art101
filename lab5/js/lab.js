@@ -12,20 +12,21 @@ var quirks = "twineBinding";
 var year = 2005;
 var age = 2024 - year;
 
-// Output (note the lowercase 'd' in document.write)
-document.write("make: " + make + "<br>");
-document.write("model: " + model + "<br>");
-document.write("color: " + color + "<br>");
-document.write("quirks: " + quirks + "<br>");
-document.write("year: " + year + "<br>");
-document.write("age: " + age + " years<br>");
+// Output to the HTML element
+document.getElementById("output").innerHTML = 
+  "make: " + make + "<br>" +
+  "model: " + model + "<br>" +
+  "color: " + color + "<br>" +
+  "quirks: " + quirks + "<br>" +
+  "year: " + year + "<br>" +
+  "age: " + age + " years<br>";
+
 // Constants
-Constant.log(age)
+console.log(age);
 
 // Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
+  // Example function (currently not used)
   // some code here
   // return results;
 }
@@ -35,5 +36,6 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
+// Let's get this party started
 main();
+
