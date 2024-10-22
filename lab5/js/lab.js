@@ -4,22 +4,21 @@
  * License: Public Domain
  **/
 
-
 // Define Variables
-  make = "HarleyDavidson";
-  model = "Teri";
-  color = "black";
-  quirks = "twineBinding";
-  year = "2005"
-  age = 2024 - year
+var make = "HarleyDavidson";
+var model = "Teri";
+var color = "black";
+var quirks = "twineBinding";
+var year = 2005;
+var age = 2024 - year;
 
-//Output
-  document.writeIn("make: " + make + "<br>");
-  document.writeIn("model: " + model + "<br>");
-  document.writeIn("color: " + color + "<br>");
-  document.writeIn("quirks: " + quirks + "<br>");
-  document.writeIn("year: " + year + "<br>");
-  document.writeIn("age: " + age + "years<br>");
+// Output (note the lowercase 'd' in document.write)
+document.write("make: " + make + "<br>");
+document.write("model: " + model + "<br>");
+document.write("color: " + color + "<br>");
+document.write("quirks: " + quirks + "<br>");
+document.write("year: " + year + "<br>");
+document.write("age: " + age + " years<br>");
 // Constants
 Constant.log(age)
 
