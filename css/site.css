@@ -32,11 +32,12 @@ h1 {
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #2F0C67;
-  background-color: #616BC0;
+  border: solid 1px #7c5f83;
+  background-color: #cfafd1;
 }
 
 .list {
