@@ -24,8 +24,6 @@
     margin: 5px; /* adds space outside edge of box */
 
       font-family:"Times New Roman", Times, serif   /* changes button's font family*/ 
-
-      float: right;	/** places button on far right side of container at same level **/
 }
 
 .inline-button:hover {
