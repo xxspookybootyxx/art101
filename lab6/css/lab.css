@@ -4,7 +4,7 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 1px #7c5f83;
     background-color: #cfafd1;
   }
 
@@ -14,19 +14,19 @@
 
   .inline-button {
     display: inline;
-    color: red;
-    font-size: 32px;
+    color: black;
+    font-size: 24px;
 
-    background-color: yellow; /* makes it bright yellow! */
+    background-color: #cfafd1; /* makes it the same color as the div */
     border-width: 3px; /* gives it a nice bold border */
     border-color: black; /* makes sure that border is black */
-    padding-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds some spacing between the edges of your content inside */ 
+    padding-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds some spacing between the edges of my content inside */ 
     margin-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds space outside edge of box */
 
       font-family:"Times New Roman", Times, serif   /* changes button's font family*/ 
 }
 
 .inline-button:hover {
-  background-color:#ff00ff;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+  background-color:#5A58C2;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
   border-width=5px	/** increases border thickness **/
 }
