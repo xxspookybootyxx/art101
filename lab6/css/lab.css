@@ -11,3 +11,7 @@
   #pic1 {
     width: 200px;
   }
+
+  .inline-button {
+    display: inline;
+}
