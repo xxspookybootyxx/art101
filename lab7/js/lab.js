@@ -5,6 +5,9 @@ function sortLetters() {
     // Get the user's name
     var userName = window.prompt("What is your name?");
 
+    // Convert to lower case for sorting
+    var lowerCaseUserName = userName.toLowerCase();
+
     // Split the string into an array of characters, sort them, and join back into a string
     var sortedName = userName.split('').sort().join('');
 
