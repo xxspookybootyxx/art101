@@ -20,15 +20,15 @@
     background-color: #cfafd1; /* makes it the same color as the div */
     border-width: 3px; /* gives it a nice bold border */
     border-color: black; /* makes sure that border is black */
-    padding-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds some spacing between the edges of my content inside */ 
-    margin-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds space outside edge of box */
+    padding: 10px; /* adds some spacing between the edges of my content inside */ 
+    margin: 5px; /* adds space outside edge of box */
 
       font-family:"Times New Roman", Times, serif   /* changes button's font family*/ 
 
-      float:right	/** places button on far right side of container at same level **/
+      float: right;	/** places button on far right side of container at same level **/
 }
 
 .inline-button:hover {
   background-color:#5A58C2;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
-  border-width=5px	/** increases border thickness **/
+  border-width: 5px;	/** increases border thickness **/
 }
