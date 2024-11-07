@@ -14,4 +14,19 @@
 
   .inline-button {
     display: inline;
+    color: red;
+    font-size: 32px;
+
+    background-color: yellow; /* makes it bright yellow! */
+    border-width: 3px; /* gives it a nice bold border */
+    border-color: black; /* makes sure that border is black */
+    padding-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds some spacing between the edges of your content inside */ 
+    margin-left-right-top-bottom-in-pixels-or-percentage-etc.; /* adds space outside edge of box */
+
+      font-family:"Times New Roman", Times, serif   /* changes button's font family*/ 
+}
+
+.inline-button:hover {
+  background-color:#ff00ff;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+  border-width=5px	/** increases border thickness **/
 }
