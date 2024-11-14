@@ -28,8 +28,8 @@
 }
 
 .special {
-  background-color: lavender;
-  border: dotted 50px red;
+  background-color: #9269BE;
+  border: dotted 5px #7c5f83;
   color: pink;
   font-weight: bold;
 }
