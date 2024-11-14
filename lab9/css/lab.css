@@ -26,3 +26,10 @@
   background-color:#5A58C2;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
   border-width: 5px;	/** increases border thickness **/
 }
+
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
