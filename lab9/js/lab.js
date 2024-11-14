@@ -6,3 +6,12 @@
    Author: Lucy Jordan
    Date: 2024
 */
+
+// add button to challenge section
+$("#Challenge").append("<button id='button-challenge'>Make Special</button>");
+
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#challenge").toggleClass("special");
+});
