@@ -23,8 +23,8 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #CF51E0;
-  background-color: #5A58C2;
+  border: solid 1px #dbd4ce;
+  background-color: #59324c;
 }
 
 #my-portrait {
@@ -36,8 +36,8 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #7c5f83;
-  background-color: #cfafd1;
+  border: solid 1px #dbd4ce;
+  background-color: #b782a1;
 }
 
 .list {
