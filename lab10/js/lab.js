@@ -29,5 +29,6 @@ $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 
 // click listener for clear button
 $("#clear").click(function(){
+    console.log("Clear button clicked");
     $("#output").empty();
 });
