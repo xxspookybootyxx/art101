@@ -37,5 +37,5 @@ h1 {
   text-align: center;
   border: 1px solid black;
   display: inline-block; /* Make it only as wide as the content */
-  width: 100%; /* Center it on the page */
+  margin:auto; /* Center it on the page */
 }
