@@ -39,16 +39,8 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #dbd4ce;
   background-color: #b782a1;
-  border: dotted 5px #382532;
+  border: dashed 5px #382532;
 }
-
-.list {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #2F0C67;
-  background-color: #616BC0;
-}
-
 /* This is for the homepage button links */
 .inline-button {
   display: inline;
