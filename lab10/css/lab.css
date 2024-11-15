@@ -32,11 +32,3 @@ background-color:#59324c;	/** Changes bg color whenever mouse pointer enters are
 h1 {
   text-align: center;
 }
-
-#title {
-  text-align: center;
-  border: 1px solid black;
-  display: inline-block; /* Make it only as wide as the content */
-  margin:auto; /* Center it on the page */
-  padding: 10px;
-}
