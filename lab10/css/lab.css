@@ -37,5 +37,6 @@ button {
   background-color: #59324c;
   color: #dbd4ce;
   border: 1px solid #dbd4ce; /* Solid black border */
+  padding: 4px;
   font-size: 16px; /* Font size of the text inside the button*/
 }
