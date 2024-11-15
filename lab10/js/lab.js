@@ -26,3 +26,8 @@ const newText = generateRandomText();
 // append a new div to our output div
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
+
+// click listener for clear button
+$("#clear").click(function(){
+    $("#output").empty();
+});
