@@ -27,6 +27,19 @@ const newText = generateRandomText();
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 
+
+// Select all elements with the "text" class and iterate over them
+$(".text").each(function(index) {
+    // Check if the index is odd or even
+    if (index % 2 === 0) {
+      // Add a CSS class for odd-indexed elements
+      $(this).addClass("left");
+    } else {
+      // Add a CSS class for even-indexed elements
+      $(this).addClass("right");
+    }
+  });
+
 // click listener for clear button
 $("#clear").click(function(){
     console.log("Clear button clicked");

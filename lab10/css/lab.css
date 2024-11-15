@@ -40,3 +40,10 @@ button {
   padding: 4px;
   font-size: 16px; /* Font size of the text inside the button*/
 }
+.left {
+  margin-left: auto;
+}
+
+.right {
+  margin-right: auto;
+}
