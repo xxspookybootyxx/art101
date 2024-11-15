@@ -7,15 +7,11 @@
    Date: 2024
 */
 
-$(document).ready(function() {
-    console.log("jQuery version:", $.fn.jquery); // Test jQuery loading
-    
-    // Add button to challenge section
-    $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-    // Add a click listener to the challenge button
-    $("#button-challenge").click(function() {
-        // Toggle the "special" class for the #challenge section
-        $("#challenge").toggleClass("special");
-    });
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#challenge").toggleClass("special");
 });
