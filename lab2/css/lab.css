@@ -49,5 +49,3 @@ border-width: 5px;	/** increases border thickness **/
 /* Show drop-down items only while hovering on specific parent level item specified above (.dropdown) */ 
 
 .dropdown:hover.dropbtn{background-color:#3e8e41;}   
-
-.display_block_on_hover_or_click_is_accomplished_below_by_adding_the_rule_to_this_selector_only_when_it_has_been_hovered_over_and/or_clicked_upon_directly_above_in_the_previous_two_rules__thus_creating_a_simple_yet_effective_cascading_effect_of_displaying_hidden_content_as_needed_within_nested_containers_like_ours_herein_referred_to_as_dropdowns_for_simply_another_name:-):)-have_fun!
