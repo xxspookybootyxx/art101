@@ -1,32 +1,3 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-
-/* Style the button used to open the dropdown */
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-}
-
-/* The container for all buttons together */
-.dropdown {
- position: relative; /* This positions your menu relative to your button so they stay together!*/
- display: inline-block; /* Allows horizontal alignment of elements side by side within blocks */
-}
-
-/* Hidden when not hovering over parent element (e.g., .dropdown) below */
-.dropdown-content { 
-   display:none;  
-   position:absolute;    
-   background-color:#f9f9f9 ;  
-      min-width :160px ;  
-      box-shadow :0px8 px16 px0 paxrgba(0,0 ,0 ,.2);   
-      z-index :1 
-           
-} 
-
-/* Show drop-down items only while hovering on specific parent level item specified above (.dropdown) */ 
-
-.dropdown:hover.dropbtn{background-color:#3e8e41;}   
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */ 
