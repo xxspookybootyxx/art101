@@ -18,6 +18,6 @@
 }
 
 .inline-button:hover {
-background-color:#382532;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+background-color:#59324c;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
 border-color: white;
 }
