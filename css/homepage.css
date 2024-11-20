@@ -50,3 +50,32 @@ h1 {
   border-radius: 5px;
   background-color: #b782a1;
 }
+
+.minor-section-labs {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #dbd4ce;
+  border-radius: 5px;
+  background-color: #b782a1;
+  text-align: center; /* Center content within this section only */
+}
+
+.lab-button-circle {
+  display: inline-block;
+  background-color: #59324c;
+  width: 60px; /* Ensure the width and height are equal */
+  height: 60px; /* Ensure the width and height are equal */
+  border-radius: 50%; /* Makes the button perfectly circular */
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 60px; /* Matches the height for vertical centering */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lab-button-circle:hover {
+  background-color: #382532;
+  transform: scale(1.1); /* Slight zoom effect */
+}
