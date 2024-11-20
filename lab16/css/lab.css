@@ -42,15 +42,16 @@ body {
     border-radius: 5px;
   }
   
-  /* Header container styling for flexbox layout */
-  .header-container {
-    display: flex;
-    justify-content: space-between; /* Align items horizontally (space between left and right) */
-    align-items: center; /* Vertically center content */
-    width: 100%; /* Ensure it takes up full width */
-    padding: 10px;
-    border-radius: 5px;
+  .homebutton {
+    text-align: right;
   }
+
+ .title {
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 200%;
+  text-align: center; /* Center the h1 text */
+}
   
   /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
   #content {
