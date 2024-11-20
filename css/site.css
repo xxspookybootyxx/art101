@@ -1,4 +1,4 @@
-/* we can use a single css file to style all the files in our wwebsite */
+/* we can use a single css file to style all the files in our website */
 
 /* you can pick your own background colors, text colors, and fonts */
 
@@ -19,10 +19,16 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  text-align: center; /* Center the h1 text */
+  flex-grow: 1; /* Allow h1 to take available space to push the button to the right */
 }
 
+/* Center the content and position the Home button on the right */
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
+  display: flex; /* This makes the #content a flex container */
+  justify-content: space-between; /* Align items horizontally (space between left and right) */
+  align-items: center; /* Vertically center content */
   margin: 10px;
   padding: 10px;
   border: solid 1px #dbd4ce;
@@ -37,14 +43,15 @@ h1 {
   background-color: #b782a1;
 }
 
+/* Home button positioning */
 .home-button {
   display: inline-block;
   color: black;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 
-  background-color: #b782a1; /* makes it the same color as the div */
-  border-color: #5A5A5A black black #5A5A5A; /* Beveled effect: top/left grey, bottom/right black */
+  background-color: #b782a1; /* Same color as the div */
+  border-color: #5A5A5A black black #5A5A5A; /* Beveled effect */
   padding: 10px; /* Space inside the button */
   margin: 5px; /* Space around the button */
   text-decoration: none; /* Removes underline for <a> */
@@ -53,5 +60,5 @@ h1 {
 }
 
 .home-button:hover {
-background-color:#59324c;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+  background-color: #59324c; /* Changes background when hovering */
 }
