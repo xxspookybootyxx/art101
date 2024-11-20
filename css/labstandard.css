@@ -1,8 +1,7 @@
 .home-button {
-    position: absolute; /* Enables manual placement */
-    top: 10px; /* Distance from the top of the page */
-    right: 10px; /* Distance from the left edge of the page */
-
+    display: inline;
+    color: black;
+    font-size: 24px;
   
     background-color: #b782a1; /* makes it the same color as the div */
     border-width: 3px; /* gives it a nice bold border */

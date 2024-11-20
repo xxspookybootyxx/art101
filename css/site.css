@@ -40,3 +40,23 @@ h1 {
   border: solid 1px #dbd4ce;
   background-color: #b782a1;
 }
+
+.home-button {
+  display: inline;
+  color: black;
+  font-size: 24px;
+
+  background-color: #b782a1; /* makes it the same color as the div */
+  border-width: 3px; /* gives it a nice bold border */
+  border-color: black; /* makes sure that border is black */
+  padding: 10px; /* adds some spacing between the edges of my content inside */ 
+  margin: 5px; /* adds space outside edge of box */
+  font-family: "Times New Roman", Times, serif; /* Font family */
+  text-align: center; /* Center the text inside the button */
+  text-decoration: none; /* Removes underline for <a> */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.home-button:hover {
+background-color:#59324c;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+}
