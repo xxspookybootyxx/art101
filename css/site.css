@@ -44,7 +44,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
 
   background-color: #b782a1; /* makes it the same color as the div */
-  border: 3px solid black; /* Button border */
+  border-color: grey black black grey; /* Beveled effect: top/left grey, bottom/right black */
   padding: 10px; /* Space inside the button */
   margin: 5px; /* Space around the button */
   text-decoration: none; /* Removes underline for <a> */
