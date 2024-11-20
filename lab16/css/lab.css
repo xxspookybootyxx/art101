@@ -106,6 +106,7 @@ h1 {
   justify-content: space-between; /* Space between dropdown and home button */
   align-items: center; /* Vertically center-align items */
   padding: 10px;
+  width: 100%;
 }
 
 
@@ -128,6 +129,7 @@ h1 {
   text-align: center;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin-left: 0;
 }
 
 /* Dropdown container */
