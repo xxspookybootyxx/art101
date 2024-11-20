@@ -132,18 +132,22 @@ h1 {
 /* Dropdown button */
 .dropdown-button {
   background-color: #b782a1;
-  color: white;
-  font-size: 16px;
-  padding: 10px 20px;
-  border: none;
+  color: black;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #5A5A5A;
   border-radius: 5px;
+  text-decoration: none;
   cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
 
 /* Change button color on hover */
 .dropdown-button:hover {
-  background-color: #382532;
+  background-color: #59324c;
 }
 
 /* Dropdown content (hidden by default) */
