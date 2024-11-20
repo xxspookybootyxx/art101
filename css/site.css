@@ -8,7 +8,7 @@
 /* Body and other elements */
 body {
   background-color: #382532; /* this is the color for the "body", the full background */
-  margin: 0; /* Reset any default margin */
+  margin: 10px; /* Reset any default margin */
   padding: 0; /* Reset any default padding */
   border: dotted 5px #b782a1;
   border-radius: 5px;
@@ -24,10 +24,6 @@ h1 {
   font-size: 30px;
   text-align: center; /* Center the h1 text */
   border-radius: 5px;
-}
-
-.homebutton {
-  text-align: right;
 }
 
 #content {
@@ -49,6 +45,10 @@ h1 {
   border: solid 1px #dbd4ce;
   border-radius: 5px;
   background-color: #b782a1;
+}
+
+.homebutton {
+  text-align: right;
 }
 
 .home-button {
