@@ -15,9 +15,17 @@ h1 {
 }
 
 button {
-  background-color: #59324c;
   color: #dbd4ce;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #59324c;
   border: 1px solid #dbd4ce; /* Solid black border */
-  padding: 4px;
-  font-size: 16px; /* Font size of the text inside the button*/
+  border-radius: 5px; /* Slight rounded corners */
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+button:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
