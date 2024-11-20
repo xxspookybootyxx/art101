@@ -25,3 +25,25 @@ $("#submit").click(function () {
   // Append the sorted name to the output div
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
+
+// Change Background Color Button
+$("#change-color").click(function () {
+  const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+  $("body").css("background-color", randomColor);
+});
+
+// Glitch Effect Button
+$("#glitch-effect").click(function () {
+  glitchPage();
+});
+
+// Reset Page Button
+$("#reset-page").click(function () {
+  // Reset styles and content
+  $("body").css("background-color", "");
+  $("#output").html("");
+  $(".minor-section").css({
+      transform: "",
+      color: "",
+  });
+});
