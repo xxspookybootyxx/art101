@@ -1,0 +1,12 @@
+.house-image {
+    width: 75px; /* Adjust size */
+    height: auto;
+    margin: 10px;
+    cursor: pointer; /* Indicates clickable */
+    border: 2px solid transparent;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .house-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }

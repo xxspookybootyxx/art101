@@ -1,40 +1,54 @@
 /*
-lab.js - Sorting Hat Program
-This program assigns a user to a fictional house within the Harry Potter Universe based on the length of their name.
+lab.js - Image based Sorting Program
+This program assigns a user a personality type based on the image they click.
 Author: Lucy Jordan
 Date: 2024
 */
 
-// Function to sort a user into a house
-function sortingHat(str) {
-    // Count the length of the string
-    const length = str.length;
-  
-    // Use modulus operator to determine house
-    const mod = length % 4;
-  
-    // Assign a house based on the value of mod
-    if (mod === 0) {
-      return "Gryffindor"; // Example from Hogwarts
-    } else if (mod === 1) {
-      return "Ravenclaw";
-    } else if (mod === 2) {
-      return "Hufflepuff";
-    } else {
-      return "Slytherin";
+$(document).ready(function () {
+    // Function to handle sorting based on the image clicked
+    function assignHouse(house) {
+      // Display the result in the output div
+      const result = `<p>Your personality type is <strong>${house}</strong></p>`;
+      $("#output").html(result); // Update the #output div with the result
     }
-  }
   
-  // Event listener for button click
-  $("#submit-button").click(function () {
-    // Get the user's name from the input field
-    const name = $("#name-input").val();
+    // Event listeners for image clicks
+    $("#image1").click(function () {
+      assignHouse("ISTJ - Apple: Reliable. Trustworthy. Keeps doctors away.");
+    });
   
-    // Run the sortingHat function and get the assigned house
-    const house = sortingHat(name);
+    $("#image2").click(function () {
+      assignHouse("ENFP - Banana: Who doesn't love bananas? As a bonus, the peel can be used to prank your friends when you're done.");
+    });
   
-    // Create a styled paragraph and append it to the output div
-    const result = `<p>The Sorting Hat has sorted you into <strong>${house}</strong>!</p>`;
-    $("#output").html(result);
+    $("#image3").click(function () {
+      assignHouse("ESTJ - Blueberry: Efficient. Grab a handful and go!");
+    });
+  
+    $("#image4").click(function () {
+      assignHouse("INFP - Cherry: Cute and looks so inviting. If you take things slow, nothing tastes sweeter. But if you're hasty and bite down too quick, it'll get ya and you might get hurt.");
+    });
+  
+    // Add more event listeners if you want to include more images
+    $("#image5").click(function () {
+      assignHouse("INTJ - Pomegranate: Tough shell, and it'll make you work for every juicy morsel even once you've gotten inside. However, you actually feel like you came out of the experience a better person, having persevered and put it in the effort to dig out each bite.");
+    });
+  
+    $("#image6").click(function () {
+      assignHouse("ENTP - Durian: Either you love them or hate them, not in between. Banned in multiple countries. Enjoys causing a stink and seeing people's reactions.");
+    });
+  
+    $("#image7").click(function () {
+      assignHouse("ESTP - Fig: Part fruit, part wasp. 100% badass");
+    });
+  
+    $("#image8").click(function () {
+      assignHouse("ENTJ - Grape: Only fruit fit for emperors. Best enjoyed in your palace while being fanned by palm leaves.");
+    });
+  
+    $("#image9").click(function () {
+      assignHouse("INTP - Tomato: Is it a fruit or a vegetable? Nobody knows, except for the tomato itself. Here's some education to go along with your meal.");
+    });
   });
   
