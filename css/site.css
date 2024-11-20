@@ -58,7 +58,8 @@ h1 {
 
 
 .homebutton {
-  text-align: right;
+  display: flex; /* Ensure home button also uses flex layout */
+  align-items: center; /* Align items vertically in the center */
 }
 
 .home-button {
