@@ -38,17 +38,17 @@ h1 {
 }
 
 .home-button {
-  display: inline;
+  display: inline-block;
   color: black;
   font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
 
   background-color: #b782a1; /* makes it the same color as the div */
-  border-width: 3px; /* gives it a nice bold border */
-  border-color: black; /* makes sure that border is black */
-  padding: 10px; /* adds some spacing between the edges of my content inside */ 
-  margin: 5px; /* adds space outside edge of box */
-  font-family: "Times New Roman", Times, serif; /* Font family */
+  border: 3px solid black; /* Button border */
+  padding: 10px; /* Space inside the button */
+  margin: 5px; /* Space around the button */
   text-decoration: none; /* Removes underline for <a> */
+  text-align: center; /* Centers text inside the button */
   cursor: pointer; /* Pointer cursor on hover */
 }
 
