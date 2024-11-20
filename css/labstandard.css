@@ -1,0 +1,25 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+/* This is for the homepage button links */
+.home-button {
+    position: absolute; /* Enables manual placement */
+    top: 10px; /* Distance from the top of the page */
+    right: 10px; /* Distance from the left edge of the page */
+
+  
+    background-color: #b782a1; /* makes it the same color as the div */
+    border-width: 3px; /* gives it a nice bold border */
+    border-color: black; /* makes sure that border is black */
+    padding: 10px; /* adds some spacing between the edges of my content inside */ 
+    margin: 5px; /* adds space outside edge of box */
+    font-family: "Times New Roman", Times, serif; /* Font family */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Removes underline for <a> */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .home-button:hover {
+  background-color:#59324c;	/** Changes bg color whenever mouse pointer enters area occupied by this widget/button**/
+  }
