@@ -93,7 +93,7 @@ h1 {
 
 .lab-button-circle {
   display: inline-block;
-  background-color: #b782a1;
+  background-color: #59324c;
   padding: 20px;
   border-radius: 50%;
   text-decoration: none;
@@ -105,6 +105,6 @@ h1 {
 }
 
 .lab-button-circle:hover {
-  background-color: #59324c;
+  background-color: #b782a1;
   transform: scale(1.1); /* Slight zoom effect */
 }
