@@ -71,11 +71,11 @@ h1 {
   border-radius: 5px; /* Slight rounded corners */
   padding: 10px;
   margin: 5px;
+  margin-left: 10px; /* Added left margin */
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  margin-left: 0;
 }
 
 /* Dropdown container */
