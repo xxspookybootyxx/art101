@@ -8,6 +8,7 @@ body {
   background-color: #382532; /* this is the color for the "body", the full background */
   padding: 5px;
   border: dotted 5px #b782a1;
+  border-radius: 5px;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -22,6 +23,7 @@ h1 {
   font-size: 300%;
   text-align: center; /* Center the h1 text */
   flex-grow: 1; /* Allow h1 to take available space to push the button to the right */
+  border-radius: 5px;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -29,12 +31,14 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #dbd4ce;
+  border-radius: 5px;
   background-color: #59324c;
 }
 .title {
   padding: 10px;
   margin-bottom: 10px;
   border: dotted 10px #dbd4ce;
+  border-radius: 5px;
   background-color: #b782a1;
 }
 
@@ -43,5 +47,6 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #dbd4ce;
+  border-radius: 5px;
   background-color: #b782a1;
 }
