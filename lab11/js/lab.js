@@ -32,11 +32,6 @@ $("#change-color").click(function () {
   $("body").css("background-color", randomColor);
 });
 
-// Glitch Effect Button
-$("#glitch-effect").click(function () {
-  glitchPage();
-});
-
 // Reset Page Button
 $("#reset-page").click(function () {
   // Reset styles and content
