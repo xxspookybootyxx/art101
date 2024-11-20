@@ -1,54 +1,38 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-#pic1 {
-  width: 600px;
-}
-
-#pic2 {
-  width: 600px;
-}
-
-#pic3 {
-  width: 600px;
-}
-
-#pic4 {
-  width: 600px;
-}
-
-/* we can use a single CSS file to style all the files in our website */
+/* Global Styles */
 
 /* Apply box-sizing to all elements to include padding and border in width calculation */
 * {
   box-sizing: border-box;
 }
 
-/* Body and other elements */
+/* Body styling */
 body {
-  background-color: #382532; /* this is the color for the "body", the full background */
+  background-color: #382532; /* Background color for the body */
   margin: 10px; /* Reset any default margin */
   padding: 0; /* Reset any default padding */
   border: dotted 5px #b782a1;
   border-radius: 5px;
 }
 
+/* Header, Titles, and Text Styling */
 h1, h2, h3 {
-  font-family: sans-serif;
+  font-family: sans-serif; /* Apply sans-serif font */
 }
 
 h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 30px;
-  text-align: center; /* Center the h1 text */
+  text-align: center; /* Center align h1 text */
   border-radius: 5px;
 }
 
+/* Content Section */
 #content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch; /* Ensures sections stretch across the full width */
+  align-items: stretch; /* Ensure sections stretch across full width */
   margin: 10px;
   padding: 10px;
   border: solid 1px #dbd4ce;
@@ -56,62 +40,29 @@ h1 {
   background-color: #59324c;
 }
 
+/* Minor sections inside content */
 .minor-section {
-  width: 100%;  /* Ensures the minor sections take up the full width of the container */
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #dbd4ce;
-  border-radius: 5px;
-  background-color: #b782a1;
-}
-
-.minor-section-labs {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #dbd4ce;
   border-radius: 5px;
   background-color: #b782a1;
-  text-align: center; /* Center content within this section only */
 }
 
-.home-button:hover {
-  background-color: #59324c;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
-}
-
-.lab-button-circle {
-  display: inline-block;
-  background-color: #59324c;
-  width: 60px; /* Ensure the width and height are equal */
-  height: 60px; /* Ensure the width and height are equal */
-  border-radius: 50%; /* Makes the button perfectly circular */
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  line-height: 60px; /* Matches the height for vertical centering */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.lab-button-circle:hover {
-  background-color: #382532;
-  transform: scale(1.1); /* Slight zoom effect */
-}
-
-
-/* Header container for alignment and buttons */
+/* Header Container */
 .header {
-  display: flex; /* Flexbox for horizontal alignment */
+  display: flex;
   justify-content: space-between; /* Space between dropdown and home button */
   align-items: center; /* Vertically center-align items */
   padding: 10px;
   width: 100%;
 }
 
-
+/* Home Button Styles */
 .homebutton {
-  text-align: right;
+  display: flex; /* Flex layout for home button container */
+  align-items: center; /* Vertically center-align home button */
 }
 
 .home-button {
@@ -120,25 +71,28 @@ h1 {
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
   background-color: #b782a1;
-  border: 2px solid #5A5A5A; /* Solid border with a color */
-  border-radius: 5px; /* Slight rounded corners */
+  border: 2px solid #5A5A5A;
+  border-radius: 5px;
   padding: 10px;
   margin: 5px;
-  margin-left: 10px; /* Added left margin */
+  margin-left: 10px;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  margin-left: 0;
 }
 
-/* Dropdown container */
+.home-button:hover {
+  background-color: #59324c;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Dropdown Menu Styles */
 .dropdown {
-  position: relative; /* Allows the dropdown to be positioned relative to the button */
-  display: inline-block; /* Ensure it's inline with other elements */
+  position: relative;
+  display: inline-block;
 }
 
-/* Dropdown button */
 .dropdown-button {
   background-color: #b782a1;
   color: black;
@@ -148,12 +102,11 @@ h1 {
   margin: 5px;
   border: 2px solid #5A5A5A;
   border-radius: 5px;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Change button color on hover */
 .dropdown-button:hover {
   background-color: #59324c;
 }
@@ -161,31 +114,31 @@ h1 {
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none; /* Hidden by default */
-  position: absolute; /* Position below the button */
+  position: absolute;
   background-color: #b782a1;
-  min-width: 200px; /* Width of the dropdown */
+  min-width: 200px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  z-index: 1; /* Ensures it appears above other content */
+  z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* Links inside dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block; /* Full-width clickable area */
+  display: block;
   transition: background-color 0.3s ease;
 }
 
-/* Change link appearance on hover */
+/* Hover effect for dropdown links */
 .dropdown-content a:hover {
   background-color: #59324c;
   color: white;
   border-radius: 3px;
 }
 
-/* Show the dropdown menu when hovering over the dropdown container */
+/* Show the dropdown when hovering */
 .dropdown:hover .dropdown-content {
   display: block;
 }

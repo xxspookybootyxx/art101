@@ -1,65 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 16 - Test</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled with narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specific CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- Load jQuery library to make JavaScript easier (must be above our lab JS)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to JavaScript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" defer></script>
+<head>
+    <!-- Metadata for the page -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Page title for browser tab and bookmarks -->
+    <title>Lab 12 - Conditionals</title>
+
+    <!-- Link to sitewide and lab-specific CSS -->
+    <link rel="stylesheet" href="../css/site.css" type="text/css">
+    <link rel="stylesheet" href="css/lab.css" type="text/css">
+
+    <!-- jQuery library for easier JS handling (must be before custom JS) -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Custom JavaScript for the lab (deferred loading after page load) -->
+    <script src="./js/lab.js" type="text/javascript" defer></script>
 </head>
+
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<div class="header">
-				<div class="dropdown">
-				  <button class="dropdown-button">Labs</button>
-				  <div class="dropdown-content">
-					<a href="lab1/">Lab 1</a>
-					<a href="lab2/">Lab 2</a>
-					<a href="lab3/">Lab 3</a>
-					<a href="lab4/">Lab 4</a>
-					<a href="lab5/">Lab 5</a>
-					<a href="lab6/">Lab 6</a>
-					<a href="lab7/">Lab 7</a>
-					<a href="lab8/">Lab 8</a>
-					<a href="lab9/">Lab 9</a>
-					<a href="lab10/">Lab 10</a>
-					<a href="lab11/">Lab 11</a>
-					<a href="lab12/">Lab 12</a>
-					<a href="lab13/">Lab 13</a>
-					<a href="lab14/">Lab 14</a>
-					<a href="lab15/">Lab 15</a>
-				  </div>
-				</div>
-				<div class="homebutton">
-				  <a href="../index.html"><button class="home-button">Home</button></a>
-				</div>
-			  </div>
-			  
-			<h1>Lab 16 - Test</h1>
+    <!-- Main content section -->
+    <main id="content">
+        <section>
+
+            <!-- Header with dropdown and home button -->
+            <div class="header">
+                <div class="dropdown">
+                    <button class="dropdown-button">Labs</button>
+                    <div class="dropdown-content">
+                        <a href="../lab1/index.html">Lab 1</a>
+                        <a href="../lab2/index.html">Lab 2</a>
+                        <a href="../lab3/index.html">Lab 3</a>
+                        <a href="../lab4/index.html">Lab 4</a>
+                        <a href="../lab5/index.html">Lab 5</a>
+                        <a href="../lab6/index.html">Lab 6</a>
+                        <a href="../lab7/index.html">Lab 7</a>
+                        <a href="../lab8/index.html">Lab 8</a>
+                        <a href="../lab9/index.html">Lab 9</a>
+                        <a href="../lab10/index.html">Lab 10</a>
+                        <a href="../lab11/index.html">Lab 11</a>
+                        <a href="../lab12/index.html">Lab 12</a>
+                        <a href="../lab13/index.html">Lab 13</a>
+                        <a href="../lab14/index.html">Lab 14</a>
+                        <a href="../lab15/index.html">Lab 15</a>
+						<a href="../lab16/index.html">Lab 16</a>
+                    </div>
+                </div>
+
+                <!-- Home button -->
+                <div class="homebutton">
+                    <a href="../index.html"><button class="home-button">Home</button></a>
+                </div>
+            </div>
+
+            <!-- Main header for the lab -->
+                <h1>Lab 12 - Conditionals</h1>
+			
+			<!-- Content sections for Challenge, Problems, Reflection, and Results -->
 			<div class="minor-section">
-				<h2>Challenge</h2>
-				<p>In this lab, we familiarized ourselves with the file structures on our computers. We also worked on uploading things to the server.</p>
+					<h2>Challenge</h2>
+					<p>Restate the challenge here.</p>
 			</div>
 
 			<div class="minor-section">
-				<h2>Problems</h2>
-				<p>I struggled for a while to get the CSS code to change the size of my image, but then I found out that it was because I hadn't coded for an image ID in the HTML. Once I fixed that, everything seemed to work well!</p>
-			</div>	  
+					<h2>Problems</h2>
+					<p>What were the problems, if any?</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>Reflect here</p>
+			</div>
+
+			<div class="minor-section">
+                <h2>Results</h2>
+                <p>Results here</p>
+                <div class="input-output">
+					<h2>Welcome to Middle Earth</h2>
+					<p>Choose your path by selecting an image:</p>
+					<div class="images">
+						<img id="image1" src="./img/apple.png" alt="Apple" class="house-image">
+						<img id="image2" src="./img/banana.png" alt="Banana" class="house-image">
+						<img id="image3" src="./img/blueberry.png" alt="Blueberry" class="house-image">
+						<img id="image4" src="./img/cherry.png" alt="Cherry" class="house-image">
+					</div>
+					<div id="output"></div>
+				</div>
+            
 		</section>
 	</main>
 </body>
+
 </html>
