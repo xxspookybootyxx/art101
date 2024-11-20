@@ -17,6 +17,7 @@ h1,h2,h3 {
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   word-spacing: 5px;
+  letter-spacing: 5px;
   font-size: 200%;
   text-align: center; /* Center the h1 text */
   flex-grow: 1; /* Allow h1 to take available space to push the button to the right */
