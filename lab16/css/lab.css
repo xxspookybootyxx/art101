@@ -25,6 +25,7 @@ body {
     background-color: #382532; /* this is the color for the "body", the full background */
     padding: 5px;
     border: dotted 5px #b782a1;
+    border-radius: 5px;
   }
   
   /* we can have rules apply to multiple elements at the same time with commas */
@@ -38,6 +39,7 @@ body {
     word-spacing: 5px;
     font-size: 200%;
     text-align: center; /* Center the h1 text */
+    border-radius: 5px;
   }
   
   /* Header container styling for flexbox layout */
@@ -47,6 +49,7 @@ body {
     align-items: center; /* Vertically center content */
     width: 100%; /* Ensure it takes up full width */
     padding: 10px;
+    border-radius: 5px;
   }
   
   /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -58,6 +61,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: solid 1px #dbd4ce;
+    border-radius: 5px;
     background-color: #59324c;
   }
   
@@ -66,6 +70,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #dbd4ce;
+    border-radius: 5px;
     background-color: #b782a1;
   }
   
