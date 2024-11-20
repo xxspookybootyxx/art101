@@ -1,7 +1,7 @@
 /*
 lab.js - Sorting Hat Program
-This program assigns a user to a fictional house based on the length of their name.
-Author: [Your Name]
+This program assigns a user to a fictional house within the Harry Potter Universe based on the length of their name.
+Author: Lucy Jordan
 Date: 2024
 */
 
