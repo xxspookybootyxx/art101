@@ -1,0 +1,89 @@
+/* we can use a single CSS file to style all the files in our website */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an HTML element tag, in this case "body" will apply to the whole document */
+body {
+    background-color: #382532; /* this is the color for the "body", the full background */
+    padding: 5px;
+    border: dotted 5px #b782a1;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: sans-serif;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    text-align: center; /* Center the h1 text */
+    /* Removed flex-grow from h1 */
+  }
+  
+  /* Header container styling for flexbox layout */
+  .header-container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally (space between left and right) */
+    align-items: center; /* Vertically center content */
+    width: 100%; /* Ensure it takes up full width */
+    padding: 10px;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    display: flex;
+    flex-direction: column; /* Align sections vertically */
+    justify-content: flex-start; /* Align items from top */
+    align-items: center; /* Center content horizontally */
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #dbd4ce;
+    background-color: #59324c;
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #dbd4ce;
+    background-color: #b782a1;
+  }
+  
+  /* Home button positioning */
+  .home-button {
+    display: inline-block;
+    color: black;
+    font-size: 1.5rem; /* Relative size based on root font size */
+    font-family: "Times New Roman", Times, serif;
+    background-color: #b782a1;
+    border: 2px solid #5A5A5A; /* Solid border with a color */
+    border-radius: 5px; /* Slight rounded corners */
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .home-button:hover {
+    background-color: #59324c;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  }
+  
+  /* Images styling */
+  img {
+    max-width: 100%; /* Make sure images are responsive */
+    height: auto;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .home-button {
+      font-size: 1rem; /* Smaller size for smaller screens */
+    }
+  }
+  
