@@ -38,7 +38,6 @@ body {
     word-spacing: 5px;
     font-size: 200%;
     text-align: center; /* Center the h1 text */
-    /* Removed flex-grow from h1 */
   }
   
   /* Header container styling for flexbox layout */
@@ -81,11 +80,13 @@ body {
     border-radius: 5px; /* Slight rounded corners */
     padding: 10px;
     margin: 5px;
+    margin-left: 10px; /* Added left margin */
     text-decoration: none;
     text-align: center;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
   }
+
   
   .home-button:hover {
     background-color: #59324c;
