@@ -9,19 +9,19 @@ Date: 2024
 
 // Sorts the characters of a string in alphabetical order.
 function sortString(inputString) {
-    // We have to convert our string to an array and back again to sort it
-    return inputString.split('').sort().join('');
-  }
+  if (!inputString) return "Please enter a valid name.";
+  // Convert the string to an array, sort it, and join it back
+  return inputString.split('').sort().join('');
+}
 
-  // click listener for button
-$("#submit").click(function(){
+// Click listener for button
+$("#submit").click(function () {
+  // Get the value of the input field
+  const userName = $("#user-name").val();
+
+  // Sort the string
+  const userNameSorted = sortString(userName);
+
+  // Append the sorted name to the output div
+  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
-// get value of input field
-const userName = $("#user-name").val();
-
-// now let's sort it
-userNameSorted = sortString(userName);
-
-// append a new div to our output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
