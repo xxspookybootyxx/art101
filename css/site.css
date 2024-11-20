@@ -29,10 +29,6 @@ h1 {
   background-color: #59324c;
 }
 
-#my-portrait {
-  width: 300px;
-}
-
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
@@ -52,7 +48,6 @@ h1 {
   padding: 10px; /* adds some spacing between the edges of my content inside */ 
   margin: 5px; /* adds space outside edge of box */
   font-family: "Times New Roman", Times, serif; /* Font family */
-  text-align: center; /* Center the text inside the button */
   text-decoration: none; /* Removes underline for <a> */
   cursor: pointer; /* Pointer cursor on hover */
 }
