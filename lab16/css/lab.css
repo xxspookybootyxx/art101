@@ -65,6 +65,16 @@ h1 {
   background-color: #b782a1;
 }
 
+.minor-section-labs {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #dbd4ce;
+  border-radius: 5px;
+  background-color: #b782a1;
+  text-align: center; /* Center content within this section only */
+}
+
 .homebutton {
   text-align: right;
 }
