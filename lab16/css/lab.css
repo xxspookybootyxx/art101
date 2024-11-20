@@ -1,3 +1,21 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+#pic1 {
+  width: 600px;
+}
+
+#pic2 {
+  width: 600px;
+}
+
+#pic3 {
+  width: 600px;
+}
+
+#pic4 {
+  width: 600px;
+}
+
 /* we can use a single CSS file to style all the files in our website */
 
 /* you can pick your own background colors, text colors, and fonts */
