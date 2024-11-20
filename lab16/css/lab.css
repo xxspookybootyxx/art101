@@ -75,27 +75,6 @@ h1 {
   text-align: center; /* Center content within this section only */
 }
 
-.homebutton {
-  text-align: right;
-}
-
-.home-button {
-  display: inline-block;
-  color: black;
-  font-size: 24px;
-  font-family: "Times New Roman", Times, serif;
-  background-color: #b782a1;
-  border: 2px solid #5A5A5A; /* Solid border with a color */
-  border-radius: 5px; /* Slight rounded corners */
-  padding: 10px;
-  margin: 5px;
-  margin-left: 10px; /* Added left margin */
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-}
-
 .home-button:hover {
   background-color: #59324c;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
@@ -121,7 +100,35 @@ h1 {
 }
 
 
+/* Header container for alignment and buttons */
+.header {
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-between; /* Space between dropdown and home button */
+  align-items: center; /* Vertically center-align items */
+  padding: 10px;
+}
 
+
+.homebutton {
+  text-align: right;
+}
+
+.home-button {
+  display: inline-block;
+  color: black;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #b782a1;
+  border: 2px solid #5A5A5A; /* Solid border with a color */
+  border-radius: 5px; /* Slight rounded corners */
+  padding: 10px;
+  margin: 5px;
+  margin-left: 10px; /* Added left margin */
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
 
 /* Dropdown container */
 .dropdown {
@@ -142,7 +149,6 @@ h1 {
   text-decoration: none;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
 }
 
 /* Change button color on hover */
