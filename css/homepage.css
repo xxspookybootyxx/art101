@@ -34,7 +34,7 @@ h1 {
 .title {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #dbd4ce;
+  border: dotted 10px #dbd4ce;
   background-color: #b782a1;
 }
 
