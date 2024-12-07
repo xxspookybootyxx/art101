@@ -1,0 +1,16 @@
+#activate {
+    display: inline-block;
+    color: #dbd4ce;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #59324c;
+    border: 2px solid #dbd4ce;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
